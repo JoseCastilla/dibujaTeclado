@@ -14,7 +14,7 @@ var posicion = {
 	y : 150
 }
 
-/* Detectando el evento "keyup" y llamando a la función
+/* Detectando el evento "keydown" y llamando a la función
  * dibujarTeclado
  */
 
@@ -45,7 +45,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal) {
 }
 
 /* La función dibujarTeclado recibo como parámetro el objeto
- * generado en el evento "keyup". Se puede conocer los metodos
+ * generado en el evento "keydown". Se puede conocer los metodos
  * y atributos haciendo un consle.log(evento)
  */
 
